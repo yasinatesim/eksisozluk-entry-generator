@@ -22,7 +22,7 @@ function Entry() {
     <>
       <div className={s.entry} ref={ref}>
         <h1 className={s.title} contentEditable suppressContentEditableWarning>
-          başlık
+          başlık (düzenlemek için lütfen üstüme dokun)
         </h1>
         <div className={s.subtitle}>
           şükela:&nbsp;&nbsp;
@@ -33,7 +33,7 @@ function Entry() {
 
         <div className={s.content} contentEditable suppressContentEditableWarning>
           <p>
-            entry içeriği
+            entry içeriği (düzenlemek için lütfen benim de üstüme dokun)
           </p>
         </div>
 
@@ -67,8 +67,8 @@ function Entry() {
 
         <div className={s.footer}>
           <div className={s.info}>
-            <a contentEditable suppressContentEditableWarning>kullanıcı</a>
-            <span contentEditable suppressContentEditableWarning>29.09.2014 10:53</span>
+            <a contentEditable suppressContentEditableWarning>benim de</a>
+            <span contentEditable suppressContentEditableWarning>29.09.2014 10:53 (benim de)</span>
           </div>
 
           <div>
