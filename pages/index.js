@@ -1,9 +1,9 @@
-import AboutMe from '@/containers/about-me';
+import Entry from "@/components/Entry";
 
 function Home() {
   return (
     <div>
-      <AboutMe />
+      <Entry />
     </div>
   );
 }
