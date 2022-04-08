@@ -22,7 +22,7 @@ function Entry() {
     <>
       <div className={s.entry} ref={ref}>
         <h1 className={s.title} contentEditable suppressContentEditableWarning>
-          doktor olduğunu her yerde belirtme ihtiyacı
+          başlık
         </h1>
         <div className={s.subtitle}>
           şükela:&nbsp;&nbsp;
@@ -31,10 +31,9 @@ function Entry() {
           <div>bugün</div>
         </div>
 
-        <div className={s.content}>
+        <div className={s.content} contentEditable suppressContentEditableWarning>
           <p>
-            tıp doktoru olmayıp her hangi bir bölümden doktorası olup da isminin başına her mecrada ısrarla dr yazıp tıp
-            doktoru imajı yaratmaya çalışan bir güruhunda var olduğu ihmal edilmemesi gereken eylem.
+            entry içeriği
           </p>
         </div>
 
@@ -68,8 +67,8 @@ function Entry() {
 
         <div className={s.footer}>
           <div className={s.info}>
-            <a>lesterburnham</a>
-            <span>29.09.2014 10:53</span>
+            <a contentEditable suppressContentEditableWarning>kullanıcı</a>
+            <span contentEditable suppressContentEditableWarning>29.09.2014 10:53</span>
           </div>
 
           <div>
