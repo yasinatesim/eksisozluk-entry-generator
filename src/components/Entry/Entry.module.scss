@@ -1,8 +1,8 @@
 .entry {
-  max-width: 475px;
-  width: 95%;
   margin-left: auto;
   margin-right: auto;
+  padding: 12.5px;
+  width: 500px;
 }
 
 .title {
@@ -22,7 +22,6 @@
 }
 
 .content {
-
   padding: 35px 0 0px 0;
   font-size: 16px;
   p {
@@ -35,7 +34,7 @@
   align-items: center;
   justify-content: space-between;
 
-  svg {
+  .icon {
     margin: 6px 5px 5px 5px;
   }
 }
@@ -46,18 +45,17 @@
   justify-content: space-between;
 
   &:first-of-type {
-    svg:last-of-type {
+    .icon:last-of-type {
       margin-left: 20px;
     }
   }
 
   &:last-of-type {
-
-    svg:first-of-type {
+    .icon:first-of-type {
       transform: translateY(1px);
     }
 
-    svg:last-of-type{
+    .icon:last-of-type {
       margin-top: 0;
       transform: translateY(5px);
     }
@@ -68,11 +66,11 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 5px;
 }
 
-.info{
-  padding: 4px 10px 4px 4px;
+.info {
+  padding: 0 10px 4px 4px;
+  transform: translateY(-1px);
 
   a {
     padding: 2px;
@@ -87,18 +85,30 @@
     display: block;
     color: #888;
     font-size: 12px;
-    transform: translate(3.5px,2px);
+    transform: translate(3.5px, 2px);
   }
 }
 
-.profile {
-  img {
-    display: block;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin-top: 2px;
-    margin-bottom: 2px;
 
+.download {
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
+  padding: 4px 0;
+  border: 1px solid #b0bec5;
+  text-align: center;
+  margin-top: 20px;
+cursor: pointer;
+  &:hover {
+    background-color: #f6f7f7;
+    color: #81C14B;
+  }
+
+  a {
+    display: none;
   }
 }
