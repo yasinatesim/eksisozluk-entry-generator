@@ -1,4 +1,4 @@
-import Entry from "@/components/Entry";
+import Entry from '@/components/Entry';
 
 function Home() {
   return (
