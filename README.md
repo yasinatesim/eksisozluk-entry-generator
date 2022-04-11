@@ -1,31 +1,43 @@
 
-  
-  
+
 <h3 align="center">
-  <br>
-  <a href="https://github.com/yasinatesim/next-starter-kit"><img src="https://yasinates.com/tech/next.svg" alt="Next Starter Kit" width="200"></a>
-  <br>
-  Next Starter Kit
-  <br>
+  <br />
+   <a  href="https://github.com/yasinatesim/eksisozluk-entry-generator"><img src="https://yasinates.com/eksisozluk-entry-generator.jpg" alt="ekşi sözlük Entry Generator" width="200" /></a>
+  <br />
+ekşi sözlük Entry Generator
+  <br />
 </h3>
 
-<hr>
+<hr />
 
-<p  align="center">This project is a starter kit for develop the front-end web applications with Next.js 😎</p>
+<p  align="center">This project is a entry generator app for ekşi sözlük</p>
 
-   
+
+  <p align="center">
+· <a  href="https://eksisozluk-entry-generator.yasinatesim.vercel.app/">View app</a>
+  </p>
 
 ## 📖 About
-  
-  <img width="500" src="https://yasinates.com/next-starter-kit.jpg">
 
-This project is a starter kit for develop the front-end web applications with Next.js 😎
+This project is a entry generator app for ekşi sözlük. You can create ekşisözlük fake entries with this project
 
 ### 📚Tech Stack
 
-  
+
 
 <table>
+
+<tr>
+
+<td>
+
+<a  href="https://www.npmjs.com/package/react-screen-capture">react-screen-capture</a>
+
+</td>
+
+<td>A tiny React library allows you to take a snapshot of the webpage's screen or part of the screen</td>
+
+</tr>
 
 <tr>
 
@@ -114,25 +126,23 @@ This project is a starter kit for develop the front-end web applications with Ne
 </table>
 
   
-  
+
+## 🧐 What's inside?
+
+There is a simple component for Entry. It has basic image download logic and uses [use-react-screenshot](https://www.npmjs.com/package/use-react-screenshot) for generate Entry image
 
 ## Getting Started
 
-  
-
 ### 📦 Prerequisites
-
-  
 
 - Node (v12.0.0+)
 
 - Npm (v6.00+)
 
-  
 
 ### ⚙️ How To Use
 
-  
+
 
 1. Clone this repository
 
@@ -140,7 +150,7 @@ This project is a starter kit for develop the front-end web applications with Ne
 
 ```bash
 
-git clone https://github.com/yasinatesim/next-starter-kit.git
+git clone https://github.com/yasinatesim/eksisozluk-entry-generator.git
 
 ```
 
@@ -163,7 +173,7 @@ yarn dev
 
   
 
-**For Production Build & Build Start**
+**For Production Build &amp; Build Start**
 
 ```bash
 
@@ -195,7 +205,7 @@ yarn export
 
   
 
-**For Lint & Format**
+**For Lint &amp; Format**
 
 ```bash
 
@@ -205,10 +215,12 @@ yarn format
 
 ```
 
-  
-
 ## 🔑 License
 
-* Copyright © 2020 - MIT License.
+* Copyright © 2022 - MIT License.
 
-See `LICENSE` for more information.
+See [LICENSE](https://github.com/yasinatesim/eksisozluk-entry-generator/blob/master/LICENSE) for more information.
+
+---
+
+_This README was generated with by [markdown-manager](https://github.com/yasinatesim/markdown-manager)_ 🥲
