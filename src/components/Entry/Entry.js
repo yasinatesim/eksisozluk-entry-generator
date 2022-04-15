@@ -32,9 +32,7 @@ function Entry() {
         </div>
 
         <div className={s.content} contentEditable suppressContentEditableWarning>
-          <p>
-            entry içeriği (düzenlemek için lütfen benim de üstüme dokun)
-          </p>
+          <p>entry içeriği (düzenlemek için lütfen benim de üstüme dokun)</p>
         </div>
 
         <div className={s.actions}>
@@ -67,8 +65,12 @@ function Entry() {
 
         <div className={s.footer}>
           <div className={s.info}>
-            <a contentEditable suppressContentEditableWarning>benim de</a>
-            <span contentEditable suppressContentEditableWarning>29.09.2014 10:53 (benim de)</span>
+            <a contentEditable suppressContentEditableWarning>
+              benim de
+            </a>
+            <span contentEditable suppressContentEditableWarning>
+              29.09.2014 10:53 (benim de)
+            </span>
           </div>
 
           <div>

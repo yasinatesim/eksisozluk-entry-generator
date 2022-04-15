@@ -89,7 +89,6 @@
   }
 }
 
-
 .download {
   padding-left: 12.5px;
   padding-right: 12.5px;
@@ -102,10 +101,10 @@
   border: 1px solid #b0bec5;
   text-align: center;
   margin-top: 20px;
-cursor: pointer;
+  cursor: pointer;
   &:hover {
     background-color: #f6f7f7;
-    color: #81C14B;
+    color: #81c14b;
   }
 
   a {
