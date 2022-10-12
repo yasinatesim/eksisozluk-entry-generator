@@ -1,3 +1,1 @@
-import Entry from './Entry';
-
-export default Entry;
+export {default} from './Entry';
