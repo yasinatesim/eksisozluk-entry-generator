@@ -14,7 +14,7 @@ ekşi sözlük Entry Generator
 
 
   <p align="center">
-· <a  href="https://eksisozluk-entry-generator.yasinatesim.vercel.app/">View app</a>
+· <a  href="https://eksisozluk-entry-generator.yasinates.com/">View app</a>
   </p>
 
 ## 📖 About
